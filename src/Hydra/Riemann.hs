@@ -22,9 +22,9 @@ import qualified Network.Monitoring.Riemann.Event.Monoid as EM
 
 
 data HydraMetric = HydraMetric {
-    metricName   :: Text
-  , metricAmount :: Either Double Int64
-  , metricUnit   :: Text
+    metricName   :: !Text
+  , metricAmount :: !(Either Double Int64)
+  , metricUnit   :: !Text
 
   } deriving (Show, Eq)
 
@@ -41,7 +41,7 @@ hydraMetricToEvent (HydraMetric name amount unit) = do
       metric = either EM.metric EM.metric amount
       endo = metric <> attr
   evt <- (endo <>) <$> EM.timeAndHost
-  return $ mkEv evt
+  return $! mkEv evt
 
 parseMetricsFile :: FilePath -> IO (Either String [HydraMetric])
 parseMetricsFile fp = AT.parseOnly parser <$> Text.readFile fp
