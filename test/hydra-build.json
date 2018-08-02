@@ -1,0 +1,77 @@
+  {
+    "build": 3772978,
+    "buildStatus": 0,
+    "drvPath": "/nix/store/9y4h1fyx9pl3ic08i2f09239b90x1lww-patchelf-tarball-0.8pre894_ed92f9f.drv",
+    "event": "buildFinished",
+    "finished": 1,
+    "job": "tarball",
+    "jobset": "master",
+    "metrics": [
+      {
+        "name": "random1",
+        "unit": "%",
+        "value": 20282
+      },
+      {
+        "name": "random2",
+        "unit": "KiB",
+        "value": 6664
+      }
+    ],
+    "outputs": [
+      {
+        "name": "out",
+        "path": "/nix/store/39h5xciz5pnh1aypmr3rpdx0536y5s2w-patchelf-tarball-0.8pre894_ed92f9f"
+      }
+    ],
+    "products": [
+      {
+        "defaultPath": "",
+        "fileSize": 148216,
+        "name": "patchelf-0.8pre894_ed92f9f.tar.gz",
+        "path": "/nix/store/39h5xciz5pnh1aypmr3rpdx0536y5s2w-patchelf-tarball-0.8pre894_ed92f9f/tarballs/patchelf-0.8pre894_ed92f9f.tar.gz",
+        "productNr": 4,
+        "sha1hash": "9f27d18382436a7f743f6c2f6ad66e1b536ab4c8",
+        "sha256hash": "b04faef2916c411f10711b58ea26965df7cb860ca33a87f1e868051b874c44b3",
+        "subtype": "source-dist",
+        "type": "file"
+      },
+      {
+        "defaultPath": "",
+        "fileSize": 121279,
+        "name": "patchelf-0.8pre894_ed92f9f.tar.bz2",
+        "path": "/nix/store/39h5xciz5pnh1aypmr3rpdx0536y5s2w-patchelf-tarball-0.8pre894_ed92f9f/tarballs/patchelf-0.8pre894_ed92f9f.tar.bz2",
+        "productNr": 3,
+        "sha1hash": "7a664841fb779dec19023be6a6121e0398067b7c",
+        "sha256hash": "c81e36099893f541a11480f869fcdebd2fad3309900519065c8745f614dd024a",
+        "subtype": "source-dist",
+        "type": "file"
+      },
+      {
+        "defaultPath": "README",
+        "fileSize": null,
+        "name": "",
+        "path": "/nix/store/39h5xciz5pnh1aypmr3rpdx0536y5s2w-patchelf-tarball-0.8pre894_ed92f9f",
+        "productNr": 2,
+        "sha1hash": null,
+        "sha256hash": null,
+        "subtype": "readme",
+        "type": "doc"
+      },
+      {
+        "defaultPath": "",
+        "fileSize": 6230,
+        "name": "README",
+        "path": "/nix/store/39h5xciz5pnh1aypmr3rpdx0536y5s2w-patchelf-tarball-0.8pre894_ed92f9f/README",
+        "productNr": 1,
+        "sha1hash": "dc6bb09093183ab52d7e6a35b72d179869bd6fbf",
+        "sha256hash": "5371aee9de0216b3ea2d5ea869da9d5ee441b99156a99055e7e11e7a705f7920",
+        "subtype": "readme",
+        "type": "doc"
+      }
+    ],
+    "project": "patchelf",
+    "startTime": 1533137091,
+    "stopTime": 1533137094,
+    "timestamp": 1533136076
+  }
